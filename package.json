@@ -10,8 +10,6 @@
     "start:server": "node --nolazy node_modules/nodemon/bin/nodemon.js --exec node --nolazy node_modules/babel-cli/bin/babel-node.js server.js",
     "start:client": "node --nolazy node_modules/webpack-dev-server/bin/webpack-dev-server.js --open --config webpack/webpack.dev.js",
     "start:report": "node ./jsReport/server.js",
-    "build:server": "node --nolazy node_modules/babel-cli/bin/babel.js server.js -d distServer && yarn build:server2",
-    "build:server2": "node --nolazy node_modules/babel-cli/bin/babel.js server -d distServer/server",
     "build:client": "node --nolazy node_modules/webpack/bin/webpack.js --config webpack/webpack.prod.js",
     "server": "node distServer/index.js"
   },
