@@ -1,0 +1,61 @@
+html, body {
+  height: 100%;
+  font-size: 17px !important; }
+
+#app #components-layout-demo-responsive .logo {
+  height: 32px;
+  background: #333;
+  border-radius: 6px;
+  margin: 16px; }
+
+#app .login-style {
+  min-height: 100vh;
+  background-color: #6741d9; }
+
+#app .login-container {
+  min-height: 100vh;
+  padding: 30px;
+  font-size: 18px !important; }
+
+#app .login-style .pic-image {
+  position: absolute;
+  width: 100%;
+  overflow: hidden; }
+
+#app .login-style .pic-image .image {
+  min-height: 100vh;
+  min-width: 100vh;
+  opacity: 0.7;
+  background-image: url("http://www.regionpiura.gob.pe/images/noticias/phpQu1RFb1532");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* or better, use cover (or contain) if you don't want to stretch images */
+  background-position: center; }
+
+#app .login-style .bg-caption {
+  width: 500px;
+  overflow: hidden; }
+
+#app .pull-bottom {
+  position: absolute !important;
+  bottom: 60px;
+  left: 50px; }
+
+#app .login-style h2 {
+  color: white; }
+
+#app .login-style p {
+  color: white;
+  font-size: 13px; }
+
+#app .login-container .text-logo {
+  padding-bottom: 20px; }
+
+#app .login-container .text-session {
+  padding-bottom: 20px; }
+
+#app .login-container .text-header {
+  position: absolute !important;
+  bottom: 30px;
+  width: 30px;
+  text-align: center; }

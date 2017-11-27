@@ -1,0 +1,13 @@
+src/
+test/
+.idea/
+.eslintrc
+.babelrc
+.gitignore
+.travis.yml
+.documentation.d.ts
+gulpfile.babel.js
+
+.env.development
+.env
+.env.sample

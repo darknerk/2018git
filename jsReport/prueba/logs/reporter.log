@@ -1,0 +1,40 @@
+2017-10-09T00:11:09.668Z - info: Initializing jsreport@1.8.2 in development mode using configuration file dev.config.json
+2017-10-09T00:11:09.669Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2017-10-09T00:11:09.672Z - info: Searching for available extensions in C:\Users\WHugo\Documents\oti2018\jsReport\
+2017-10-09T00:11:09.679Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\WHugo\Documents\oti2018\jsReport\node_modules\
+2017-10-09T00:11:09.694Z - info: Found 30 extensions
+2017-10-09T00:11:09.735Z - info: Using extension import-export
+2017-10-09T00:11:10.182Z - info: Using extension tags
+2017-10-09T00:11:10.201Z - info: Using extension templates
+2017-10-09T00:11:10.207Z - info: Using extension jsrender
+2017-10-09T00:11:10.208Z - info: Using extension cli
+2017-10-09T00:11:10.210Z - info: Using extension handlebars
+2017-10-09T00:11:10.213Z - info: Using extension debug
+2017-10-09T00:11:10.214Z - info: Using extension express
+2017-10-09T00:11:10.405Z - info: Using extension fop-pdf
+2017-10-09T00:11:10.417Z - info: Using extension phantom-pdf
+2017-10-09T00:11:10.497Z - info: Using extension fs-store
+2017-10-09T00:11:10.953Z - info: Using extension authorization
+2017-10-09T00:11:10.958Z - info: Using extension images
+2017-10-09T00:11:10.965Z - info: Using extension child-templates
+2017-10-09T00:11:10.971Z - info: Using extension browser-client
+2017-10-09T00:11:10.975Z - info: Using extension licensing
+2017-10-09T00:11:11.085Z - info: Using extension data
+2017-10-09T00:11:11.087Z - info: Using extension text
+2017-10-09T00:11:11.088Z - info: Using extension reports
+2017-10-09T00:11:11.098Z - info: Using extension resources
+2017-10-09T00:11:11.100Z - info: Using extension base
+2017-10-09T00:11:11.103Z - info: Using extension studio
+2017-10-09T00:11:11.297Z - info: Using extension html-to-xlsx
+2017-10-09T00:11:11.461Z - info: Using extension scripts
+2017-10-09T00:11:11.465Z - info: Using extension assets
+2017-10-09T00:11:11.483Z - info: Using extension scheduling
+2017-10-09T00:11:11.533Z - info: Using extension xlsx
+2017-10-09T00:11:11.851Z - info: Using extension sample-template
+2017-10-09T00:11:11.857Z - info: Using extension public-templates
+2017-10-09T00:11:11.868Z - info: Initializing fs storage at C:\Users\WHugo\Documents\oti2018\jsReport\data
+2017-10-09T00:11:12.024Z - info: Creating default express app.
+2017-10-09T00:11:12.145Z - info: jsreport server successfully started on http port: 5488
+2017-10-09T00:11:12.157Z - info: Verifying license key free
+2017-10-09T00:11:12.157Z - info: Using free license
+2017-10-09T00:11:12.159Z - info: reporter initialized

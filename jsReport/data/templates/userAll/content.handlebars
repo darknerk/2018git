@@ -1,0 +1,46 @@
+<!-- 
+Custom server side script is used to fetch data from the remote REST API server,
+handlebars to render html and phantom-pdf recipe to convert html into pdf.
+The template also uses helper function toJSON defined in global helpers asset.
+
+It requires allowed http module in scripts in the configuration file:
+"scripts": { "allowedModules": ["http"] }
+!-->
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Date: {{now}}</h1>
+    <table class="pure-table pure-table-horizontal">
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Nombres</th>
+                <th>Apellidos</th>
+                <th>Email</th>
+                <th>Hostname IP</th>
+                <th>Estado</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            {{#each users}}
+            <tr>
+                <td>{{username}}</td>
+                <td>{{password}}</td>
+                <td>{{nombres}}</td>
+                <td>{{apellidos}}</td>
+                <td>{{email}}</td>
+                <td>{{hostname}}</td>
+                <td>{{status}}</td>
+            </tr>
+            {{/each}}
+            
+        </tbody>
+    </table>
+    
+  </body>
+</html>

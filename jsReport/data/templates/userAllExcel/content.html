@@ -1,0 +1,30 @@
+<worksheet
+xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"
+xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+    <dimension ref="A1"/>
+    <sheetViews>
+        <sheetView workbookViewId="0"/>
+    </sheetViews>
+    <sheetFormatPr defaultRowHeight="13.5"/>
+    <cols>
+        <col min="1" max="1" width="56" />
+        <col min="2" max="2" width="18" />
+    </cols>
+    <sheetData>
+        {{for users}}
+            <row>
+                <c t="inlineStr"><is><t>{{:username}}</t></is></c>
+                <c t="inlineStr"><is><t>{{:password}}</t></is></c>
+                <c t="inlineStr"><is><t>{{:nombres}}</t></is></c>
+                <c t="inlineStr"><is><t>{{:apellidos}}</t></is></c>
+                <c t="inlineStr"><is><t>{{:email}}</t></is></c>
+                <c t="inlineStr"><is><t>{{:hostname}}</t></is></c>
+                <c t="inlineStr"><is><t>{{:status}}</t></is></c>
+            </row>
+        {{/for}}
+        
+    </sheetData>
+    <phoneticPr fontId="1" type="noConversion"/>
+    <pageMargins left="0.7" right="0.7" top="0.75" bottom="0.75" header="0.3" footer="0.3"/>
+    <pageSetup paperSize="9" orientation="portrait" horizontalDpi="200" verticalDpi="200"/>
+</worksheet>
