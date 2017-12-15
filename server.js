@@ -75,9 +75,9 @@ if (cluster.isMaster) {
   app.use(methodOverride())
 
   ////////////////// PRUEBA
-
   //import routerPrueba from './server/router/security/security'
   //app.use('/asd',routerPrueba)
+  ////////////////// FIN PRUEBA
 
   //Inicializar passport
   app.use(passport.initialize());
@@ -123,14 +123,14 @@ if (cluster.isMaster) {
   })
 
 
-  //* --- SERVER START EXPRESS--- */
+  // START SERVER EXPRESS NODE JS
   /*
   app.listen(PORT,()=>{
     console.log('Puerto Escucha en: localhost:'+PORT)
   })
   */
 
-  /* --- SERVER START HTTP--- */
+  // START SERVER HTTP NODE JS
   const port = process.env.PORT  || 5100
   const server = http.createServer(app)
   
@@ -145,6 +145,8 @@ if (cluster.isMaster) {
       ? "Pipe " + port
       : "Port " + port
 
+      //Si hay un Error, corta processo e inicio automaticamente un nuevo proceso.
+      //Evita que se Pare el servidor.
       switch (error.code) {
           case "EACCES":
               console.error(bind + " requiere elevacion de Privilegios.")
