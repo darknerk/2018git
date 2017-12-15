@@ -1,7 +1,6 @@
 import express from 'express'
 import passport from 'passport'
 
-
 //Require Controlladores
 import AuthController from '../controllers/authController'
 import VerificarDbController from '../controllers/verificarDbController'
